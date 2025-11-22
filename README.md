@@ -66,10 +66,11 @@ v                                       v
 |  (Python package)  |      | (LLM-based analysis)   |
 +--------------------+      +------------------------+
 
-            +-------------------------+
-            |    RBA Shared Utils     |
-            | (logging, config, etc.) |
-            +-------------------------+
+             +-------------------------+
+             |    RBA Shared Utils     |
+             | (logging, config, etc.) |
+             +-------------------------+
+
 
 
 ---

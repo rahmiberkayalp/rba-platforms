@@ -1,52 +1,39 @@
 # RBA Platforms
 
-RBA Platforms, makroekonomik veriler için yeni nesil **endeksler**, **interaktif grafikler** ve **AI destekli makro analiz** üreten bir ekosistemdir.
+RBA Platforms is a next-generation ecosystem focused on **macroeconomic intelligence**.  
+It integrates **composite macro indices**, **interactive visualizations**, and **AI-powered economic analysis** into a unified system.
 
 > **Indices. Graphs. Intelligence.**
 
 ---
 
-## 🏛️ Ürün Suite
+## 📌 Overview
 
-RBA Platforms üç ana üründen oluşur:
-
-### 🔹 RBA Backend
-Makro veri ingestion, zaman serisi işleme, kompozit indeks hesaplama (RAI, RIPI, RFSI) ve API katmanı.  
-Teknoloji: FastAPI, Python, pandas, SQL.
-
-### 🔹 RBA MacroGraph
-Makroekonomik göstergeleri ve RBA endekslerini interaktif grafiklerle sunan web arayüzü.  
-Teknoloji: Next.js, React, Plotly.
-
-### 🔹 RBA Index Lab
-Yeni makroekonomik kompozit endekslerin (RBA Activity Index, Inflation Pressure Index, Financial Stress Index) üretildiği bağımsız Python paketi.
-
-### 🔹 RBA Analyst AI
-Makro veri + RBA endekslerini otomatik analiz eden yapay zekâ motoru.  
-Trend, risk, senaryo, makro özet ve politika yorumları üretir.
-
-### 🔹 RBA Shared Utils
-Tüm sistemde ortak kullanılan yardımcı fonksiyonlar:  
-logging, config, date helpers, error yapıları.
+- Composite macroeconomic indices (RAI, RIPI, RFSI)  
+- Interactive dashboards with modern UI  
+- AI-driven macro briefings & scenario analysis  
+- Modular architecture with independent repositories  
+- Built for clarity, transparency, and data-driven insights
 
 ---
 
-## 📦 Repository Ekosistemi
+## 🧩 Repository Structure
 
-Bu ana repo, RBA Platforms’un şirket seviyesi dokümantasyon deposudur.
+This repository (`rba-platforms`) acts as the **documentation & meta hub**.
 
-Aşağıdaki repolar ürün kodlarını içerir:
+Core codebases:
 
-- **rba-backend** – API & data pipeline  
-- **rba-macrograph** – frontend  
-- **rba-index-lab** – indeks kütüphanesi  
-- **rba-analyst-ai** – AI yorum motoru  
-- **rba-shared-utils** – ortak modüller  
+- `rba-backend` — API & data pipeline  
+- `rba-macrograph` — interactive visualization UI  
+- `rba-index-lab` — index computation library  
+- `rba-analyst-ai` — AI macro analysis engine  
+- `rba-shared-utils` — shared utility modules  
 
 ---
 
-## 🧬 Mimari Genel Bakış
+## 🧬 System Architecture
 
+```
                     ┌──────────────────────────┐
                     │     RBA MacroGraph       │
                     │      (Next.js UI)        │
@@ -70,32 +57,28 @@ Aşağıdaki repolar ürün kodlarını içerir:
                     │       RBA Shared Utils        │
                     │   (logging, config, tools)    │
                     └──────────────────────────────┘
-
-
-
+```
 
 ---
 
-## 🚀 Roadmap (v1)
+## 📈 Roadmap (v1)
 
-- [ ] `rba-backend` repo oluşturma  
-- [ ] FastAPI iskelet kurulumu  
-- [ ] Temel Türkiye makro veri ingestion  
-- [ ] RBA Activity Index v1 formülü  
-- [ ] RBA MacroGraph MVP dashboard  
-- [ ] Analyst AI “Macro Brief v1” üretici  
-- [ ] Shared Utils temel modülleri (logging & config)
+- [ ] Initialize `rba-backend` repository  
+- [ ] Set up FastAPI project structure  
+- [ ] Build macro data ingestion pipeline  
+- [ ] Implement RBA Activity Index v1  
+- [ ] Create MacroGraph UI (MVP)  
+- [ ] Develop Analyst AI “Macro Brief v1”  
+- [ ] Build Shared Utils module  
 
 ---
 
-## 📄 Lisans
+## 📄 License
+
 TBD
 
 ---
 
 ## 👤 Author
+
 **Rahmi Berkay Alp**  
-
-
-
-
